@@ -1,0 +1,326 @@
+/* <!--p> pour mettre un style de fond</p--> */
+body{
+
+background-color:#F5E1DA;
+background-size:cover;
+
+}
+
+
+footer{
+  background-color:#D2B48C;
+  padding: 1%;
+  height: 110px;
+  margin-top: 100px;
+
+}
+/* <!--p> pour etablir une division pour le menu</p--> */
+div a, div {
+  display: inline-block;
+  text-transform: capitalize;
+  text-decoration:none;
+  color:Black ;
+  font-size: 110%;
+
+}
+
+/* <!--p> pour etablir une division pour le menu</p--> */
+nav {
+  background-color:#D2B48C;
+  text-align: center;
+  display: flex;
+
+
+}
+/* <!--p> pour lister le menu quand on mit le cureur </p--> */
+li a:hover {
+  text-decoration: underline;
+  transform: 0.5s;
+  font-family:sans-serif;
+
+}
+/* <!--p> pour liste d'éléments sans ordre particulier  de menu</p--> */
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex:2;
+  display: flex;
+
+}
+/* <!--p> pour représenter une section d'une page ayant des liens vers d'autres page</p--> */
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+
+}
+
+/* <!--p> crée un lien hypertexte vers des pages web</p--> */
+nav a {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:black ;
+}
+/* <!--p> représente un formulaire</p--> */
+
+nav form {
+  flex: 0;
+  display: flex;
+  align-items:center;
+  background-color: white;
+  height: 100%;
+  padding: 0 60px;
+    }
+/* <!--ar est une classe pour personalisé l'article--> */
+  .ar {
+
+    margin-left:533px;
+    background-color: #4DB8A7;
+    flex:3;
+      padding: 400px;
+      margin-top:30px;
+      height: 240px;
+      border-radius:30px;
+      width: 1px;
+  }
+  /* <!--ar est une classe pour personalisé l'article--> */
+  .ar3 {
+
+    margin-left:700px;
+    background-color: #4DB8A7;
+    flex:3;
+      padding: 300px;
+      margin-top:30px;
+      height: 10px;
+      border-radius:30px;
+      width: 1px;
+  }
+  /* <!--est une classe pour personalisé l'images'--> */
+  .content-image1 {height:400px;
+    width: 300px;
+}
+/* <!--h1 pour personalisé le texte--> */
+ h1  {
+  text-align: center;
+  color:black;
+  margin: 0px;
+}
+/* <!--h1 pour personalisé le paragraphe--> */
+p {
+  color: black;
+  height: auto;
+  text-align: justify;
+  text-transform:none;
+  margin-top: -180px;
+font-size: 21px;
+}
+  /* <!--ar est une classe pour personalisé l'article--> */
+.f {margin-left:50px;
+    background-color: #4DB8A7;
+    flex:3;
+      padding: 200px;
+      margin-top:-1035px;
+      height: 633px;
+      border-radius:30px;
+      width: 1px;
+      font-size: 18px;
+
+    }
+    /* <!--est une classe pour personalisé l'images'--> */
+    .container {
+      position: absolute;
+      left: -250px;
+      width: 1%;
+      float:left;
+    margin-left: 380px;
+
+    }
+
+/* <!--est une classe pour personalisé l'images'--> */
+    .overlay {
+      position: absolute;
+      bottom: 100%;
+      left: 0;
+      right: 0;
+      background-color: #f2f2f2;
+      overflow: hidden;
+      width: 1998%;
+      height: .01px;
+      transition: .5s ease;
+      opacity: .9;
+    }
+/* <!--est une classe pour personalisé l'images'--> */
+    .container:hover .overlay {
+      bottom: 0;
+      height: 100%;
+      cursor: pointer;
+    }
+/* <!--est une classe pour personalisé le texte en dessous de l'images'--> */
+    .text {
+      white-space: nowrap;
+      color: black;
+      font-size: 20px;
+      position: absolute;
+      overflow: hidden;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+
+/* <!--est une classe pour personalisé le titre en dessous de l'images'--> */
+    .main-title{
+      color: black;
+      text-align: center;
+      text-transform: capitalize;
+      padding: 0.7em 0;
+    }
+
+    .container2{
+      padding: 1em 0;
+      float: left;
+      width: 10%;
+    }
+
+    /* <!--est une classe pour personalisé les icones des réseaux sociaux'--> */
+
+    @media screen and (min-width: 900px){
+      .container2{
+        width: 22.33333%;
+      padding-left: 20px;
+
+      }
+    }
+/* <!--est une classe pour personalisé le titre en dessous des icones de réseaux sociaux'--> */
+    .container2 .title{
+      color: black;
+      text-align: center;
+      margin-bottom: 100px;
+    }
+/* <!--est une classe pour personalisé le contenu en dessous des icones de réseaux sociaux'--> */
+    .content {
+      position: relative;
+      width: 100%;
+      max-width: 400px;
+      margin: auto;
+      overflow: hidden;
+    }
+/* <!--est une classe pour personalisé le titre en dessous des icones de réseaux sociaux'--> */
+    .content .content-overlay {
+      background: rgba(0,0,0,0.7);
+      position: absolute;
+      height: 99%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      opacity: 0;
+      -webkit-transition: all 0.4s ease-in-out 0s;
+      -moz-transition: all 0.4s ease-in-out 0s;
+      transition: all 0.4s ease-in-out 0s;
+    }
+/* <!--est une classe pour personalisé le titre en dessous des icones de réseaux sociaux'--> */
+    .content:hover .content-overlay{
+      opacity: 1;
+    }
+/* <!--est une classe pour personalisé l'image  de réseaux sociaux'--> */
+    .content-image{
+      width:400px;
+        height:600px;
+    }
+    /* <!--est une classe pour personalisé les icones  de réseaux sociaux'--> */
+    .i { padding: 0;
+      margin:0;
+      box-sizing: border-box;
+
+      }
+
+/* <!--est une classe pour personalisé un paragraphe--> */
+.b {margin-top: 50px;
+}
+
+
+/* <!--est une classe pour personalisé les questions  de f.a.q--> */
+details { background-color: #4DB8A7;
+  padding: 10pX;
+  width: 900PX;
+  margin: 20PX;
+  margin-left: 240PX;
+  font-size: 21px;
+  }
+  /* <!--est une classe pour personalisé l'un des images de page recette--> */
+.tost { margin-top: 1500px;
+  margin-left: 1000px;
+  text-align: center;
+    }
+    /* <!--est une classe pour personalisé le tparagraphe'--> */
+.acc li{ color: black;
+  text-transform: none;
+  }
+
+
+/* <!--est une classe pour personalisé pour l'image--> */
+.img1 { width: 670px;
+  margin-top: -600px;
+  border-radius: 30px;
+  height: 600px;
+}
+/* <!--est une classe pour personalisé l'Article'--> */
+.art {
+margin-top: 60px;
+  background-color: #4DB8A7;
+  flex:4;
+padding: 200px;
+margin-left: 110px;
+margin-right: 110px;
+}
+/* <!--est une classe pour personalisé l'Article'--> */
+.art1 {
+
+  background-color: #4DB8A7;
+  flex:4;
+padding: 200px;
+margin-left: 110px;
+margin-right: 110px;
+margin-top: 30px;
+}
+/* <!--est une classe pour personalisé l'Article'--> */
+.art4 {
+margin-top:100px;
+  background-color: #4DB8A7;
+  flex:4;
+padding: 200px;
+margin-left: 110px;
+margin-right: 110px;
+}
+/* <!--est une classe pour personalisé l'Article'--> */
+article {
+  /* margin:200px; */
+  background-color: #4DB8A7;
+  flex:4;
+padding: 20px;
+margin-left: 110px;
+margin-right: 110px;
+}
+/* <!--est une classe pour personalisé l'Article'--> */
+.ar4 { margin-left:45px;
+    background-color: #4DB8A7;
+    flex:3;
+      padding: 100px;
+      margin-top:30px;
+      height: 350px;
+      border-radius:30px;
+      width: 1090px;
+
+}
+/* <!--est une classe pour personalisé d'une division-> */
+.corp {text-decoration:none;
+  text-transform:none;
+  font-family: sans-serif;
+font-size: 21px;
+width: 800px;
+margin-left:-30px;
+margin-top:180px;
+      }

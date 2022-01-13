@@ -1,0 +1,259 @@
+/* <!--p> pour mettre un style de fond</p--> */
+body{
+
+background-color:#F5E1DA;
+background-size:cover;
+}
+/* <!--p> pour etablir une division pour le menu</p--> */
+nav {
+  background-color:#D2B48C;/* <!--p> pour mettre une couleur/p--> */
+  text-align: center;/* <!--p> pour center le text</p--> */
+  display: flex;
+}
+/* <!--p> pour lister le menu quand on mit le cureur </p--> */
+li a:hover {
+  text-decoration: underline;
+  transform: 0.5s;
+  font-family:sans-serif;
+}
+
+/* <!--p> pour liste d'éléments sans ordre particulier  de menu</p--> */
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex:2;
+  display: flex;
+
+}
+/* <!--p> pour représenter une section d'une page ayant des liens vers d'autres page</p--> */
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+
+}
+/* <!--p> crée un lien hypertexte vers des pages web</p--> */
+
+nav a {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:black ;
+}
+/* <!--p> représente un formulaire</p--> */
+
+nav form {
+  flex: 0;
+  display: flex;
+  align-items:center;
+  background-color: white;
+  height: 100%;/* <!--p> pour régler la langueur</p--> */
+  padding: 0 60px;
+    }
+
+iframe{/* <!--p> pour mettre un style a la carte maps dans la fiche de contact</p--> */
+  width: 70% ;/* <!--p> pour définir une largeur</p--> */
+margin-left: 190px; /* <!--p> pour pousser à gauche </p--> */
+}
+
+
+.i { padding: 0;/* <!--p> une class créer pour mettre un style pour la partie de réseau sociaux</p--> */
+  margin:0;
+  box-sizing: border-box;
+
+  }
+  footer{/* <!--p> représente le pied de page de la section ou de la racine de sectionnement la plus proche </p--> */
+    background-color:#D2B48C;
+    padding: 1%;
+    height: 110px;
+    margin-top: 600px;
+    text-align: left;
+
+}
+.i  div {padding-top: 50px; /* <!--p> j'ai créer une division pour la partie réseaux sociaux </p--> */
+    padding-bottom: 50px;
+
+  }
+.i  ul { /* <!--p> pour contrer le contenu </p--> */
+    display:flex;
+    justify-content: center;
+  }
+  /*<!-- pour mettre style pour la partie de reseaux sociaux -->*/
+  .i ul li {display: inline-block;
+    background-color: transparent;
+    padding: 12px 16px ;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+.i  ul li a {
+  padding: 40px;
+  font-size: 70px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+
+margin-left: 140px;
+}
+h2 {
+  text-align: center; /*<!-- pour centrer le titre-->*/
+  color: black;
+}
+h1 {
+  text-align: center; /*<!-- pour centrer le titre -->*/
+  color:black;
+  }
+
+p {
+color: black; /*<!-- pour personalisé le style de paragraphe -->*/
+  height: auto;
+  text-align: justify;
+
+
+}
+article {
+  /* margin:200px; */
+  background-color: #4DB8A7;
+  flex:4;
+padding: 20px;
+margin-left: 110px;
+margin-right: 110px;
+}
+
+input{  /*<!-- pour mettre style pour la zone de contactez nous -->*/
+  border: 2px solid #ccc;
+  border-radius: 2px;
+  width:215px;
+  height: 18px;
+  color: black;
+}
+
+
+.svg-inline--fa {/*<!-- pour mettre une couleur et une taille aux icons de réseaux sociaux-->*/
+    font-size: inherit;
+    color: #4DB8A7;
+}
+/* articleTwitter */
+div a, div {
+  display: inline-block;
+  text-transform: capitalize;
+  text-decoration: none;
+  color:black;
+  font-size: 110%;
+  text-decoration: underline;
+  }
+
+  div a:hover {/*<!-- pour mettre style aux images quand on mit le curseur sa deviens noir -->*/
+    text-decoration: underline;
+    transform: 0.5s;
+    font-family:sans-serif;
+    color:black;
+      }
+
+.liens { background-color: #4DB8A7;
+  padding: 10pX;
+  width: 900PX;
+  margin: 20PX;
+  margin-left: 240PX;
+  }
+
+
+/*<!-- j'ai créer un class "container" pour les icons de navigateurs supportés -->*/
+    .container {
+      position: relative;
+      left: -250px;
+      width: 1%;
+      float:left;
+    margin-left: 380px;
+
+    }
+
+/*<!-- pour mettre une couleur  pour la zone de navigateurs supportés dans la page liens d'intérets-->*/
+    .overlay {
+      position: absolute;
+      bottom: 100%;
+      left: 0;
+      right: 0;
+      background-color: #f2f2f2;
+      overflow: hidden;
+      width: 160%;
+      height: .01px;
+      transition: .5s ease;
+      opacity: .9;
+    }
+
+    .container:hover .overlay {/*<!-- pour mettre style pour le contenu de la division pour les icons des naviguateur supportés dans la page liens d'intérets-->*/
+      bottom: 0;
+      height: 100%;
+      cursor: pointer;
+    }
+
+    .text {/*<!-- pour mettre style pour la zone de texte dans la page liens d'intérets-->*/
+      white-space: nowrap;
+      color: black;
+      font-size: 20px;
+      position: absolute;
+      overflow: hidden;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+
+
+    .main-title{/*<!-- pour mettre style pour les titres dans la page liens d'intérets-->*/
+      color: #2d2d2d;
+      text-align: center;
+      text-transform:capitalize;
+      padding: 0.7em 0;
+    }
+
+    .container2{
+      padding: 1em 0;
+      float: left;
+      width: 50%;
+    }
+
+
+    @media screen and (min-width: 900px){
+      .container2{
+        width: 22.33333%;
+      padding-left: 20px;
+
+      }
+      }
+
+
+
+    .content {
+      position: relative;
+      width: 100%;
+      max-width: 183px;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    .content .content-overlay{
+      background: rgba(0,0,0,0.7);
+      position: absolute;
+      height: 99%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      opacity: 0;
+      -webkit-transition: all 0.4s ease-in-out 0s;
+      -moz-transition: all 0.4s ease-in-out 0s;
+      transition: all 0.4s ease-in-out 0s;
+    }
+
+    .content:hover .content-overlay{/*<!-- pour éclairsir la cour de background pour la zone de navigateurs supportés dans la page liens d'intérets-->*/
+      opacity: 1;
+    }
+
+    .content-image{/*<!-- pour donner une taille spécifique pour tous les icons utilisés dans la page liens d'intérets-->*/
+      width:50px;
+        height:50px;
+    }
